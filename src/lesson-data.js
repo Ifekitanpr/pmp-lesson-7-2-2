@@ -10,7 +10,7 @@ export const lesson = {
       headline: "The details that would have actually helped next time are already gone.",
       lead: "If you journal each day of a trip as it happens, you remember the exact restaurant name, the price, the turn you almost missed. Wait until you're home to write the whole trip from memory, and it blurs into “the weather was nice and the food was good” — the details that would have actually helped next time are already gone.",
       heading: "If you journal each day of a trip as it happens, you remember the exact restaurant name, the price, the turn you almost missed. Wait until you're home to write the whole trip from memory, and it blurs into “the weather was nice and the food was good” — the details that would have actually helped next time are already gone.",
-      cta: "Reveal the knowledge pipeline",
+      cta: "Reveal the pipeline",
       image: "trip-journal",
       reveal: {
         title: "Gathering knowledge is a pipeline, not an event",
