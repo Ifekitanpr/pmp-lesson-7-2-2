@@ -61,11 +61,11 @@ export const lesson = {
         question: "Scenario: A lessons learned entry reads: “Testing started late.” No root cause, recommendation, or tags are included. A different project manager, two years later, searches the repository for insights on testing delays but never finds this entry. What does this scenario best illustrate?",
         answers: [
           "The entry is fine as written, since the fact itself (“testing started late”) is accurate",
+          "Without root cause, recommendation, and tags, the lesson is unsearchable and unusable",
           "The issue is that positive lessons weren't included alongside this negative one",
           "The entry should have been added to the risk register instead of the lessons learned register",
-          "Searchability failure — without root cause, a generalized recommendation, and tags, the entry is an anecdote nobody can find or act on, rather than a usable fix",
         ],
-        correct: 3,
+        correct: 1,
         correctFeedback: "Correct! This is exactly the second great failure mode of organizational learning — a lesson that exists but can't be found or acted on. Without root cause, a generalized recommendation, and tags, “testing started late” is an anecdote, not a fix, and it will stay invisible to exactly the person who needed it.",
         incorrectFeedback: "Reconsider — the fact stated is accurate but incomplete as a usable lesson; this isn't about missing positive lessons elsewhere, and it isn't a risk register issue — it's specifically a structure and searchability problem within the lessons learned entry itself.",
       },
@@ -89,12 +89,12 @@ export const lesson = {
       quiz: {
         question: "Scenario: At project closure, a facilitator opens the lessons learned session by asking the team to brainstorm from memory what they think went well and poorly, without first reviewing the issue log, risk register, or other project records. What does this approach risk missing?",
         answers: [
-          "Lessons that memory alone would miss, along with the evidence (dates, numbers, documents) that makes a lesson trustworthy to a future reader",
           "Nothing significant — brainstorming from memory is the standard and most effective way to begin a lessons learned session",
           "The session should have started with positive lessons specifically before addressing negative ones",
+          "A memory-only session can miss documented lessons and the evidence supporting them",
           "The impediment backlog, since that source is only relevant to agile projects and can be safely skipped in any case",
         ],
-        correct: 0,
+        correct: 2,
         correctFeedback: "Correct! Sweeping the project's own records first does two things a memory-only brainstorm can't: it surfaces lessons nobody would think to mention unprompted, and it grounds every lesson in actual evidence, which is what makes a future reader trust it.",
         incorrectFeedback: "Reconsider — this isn't about which lesson type comes first, and the impediment backlog is relevant whenever the project used adaptive practices, not just always skippable; the real risk here is starting from memory rather than the records the project already has.",
       },
